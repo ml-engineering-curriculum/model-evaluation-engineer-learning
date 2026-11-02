@@ -8,4 +8,3 @@
 | (planned) | TBD | Lessons drafted for mod-105 → mod-108 (judges, humans, generative, agent). |
 | (planned) | TBD | Lessons drafted for mod-109 → mod-112 (safety, production, platform, systems). |
 | (planned) | TBD | Project READMEs drafted: 101 benchmark-engineering capstone, 102 judge calibration study, 103 eval platform capstone. |
-| (planned) | TBD | First cohort run; rubric and pacing feedback folded back into `.aicg/curriculum-plan.json`. |
