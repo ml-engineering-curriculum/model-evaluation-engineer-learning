@@ -12,10 +12,11 @@ You **build and train** the model: you decide what it learns.
 
 To you the model is an artifact you shape: data, architecture, training objective, fine-tuning, and evaluation against the behavior you want. You change what the model knows and how it behaves, and you are the one who can say why it got better or worse.
 
-## The five relationships
+## The six relationships
 
 | Org | Relationship to the model |
 |-----|---------------------------|
+| [AI Workforce](https://github.com/ai-workforce-curriculum) | You **work alongside** the model: you direct it, check its output, and redesign your own work around it. |
 | [AI Startup](https://github.com/ai-startup-curriculum) | You **build a company around** the model: you decide what it's for and who pays for it. |
 | [AI Governance](https://github.com/ai-governance-curriculum) | You **govern and assure** the model: you decide whether a use is acceptable and prove it stays that way. |
 | [AI Engineering](https://github.com/ai-engineering-curriculum) | You **build with** the model: you turn it into products and agents people use. |
@@ -38,6 +39,7 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 
 | Org | You hand them | They hand you | Your nearest counterpart |
 |-----|---------------|---------------|--------------------------|
+| AI Workforce | Models that are better at real work, plus honest documentation of what they're bad at | Concrete examples of where model quality falls short on real tasks, the raw material for better evals and training data | [AI-Augmented Product Manager](https://github.com/ai-workforce-curriculum/ai-augmented-product-manager-learning) |
 | AI Startup | An honest read on what's technically feasible, how long it takes, and what it costs to own a model versus renting one | The problems worth owning a model for, and the business case for the data and compute it takes | [Co-Founder / CTO](https://github.com/ai-startup-curriculum/cto-curriculum) |
 | AI Governance | Data provenance, model cards, training-data documentation, and evaluation results they can audit | Data-use rules, documentation standards, and the risk-based evaluation bar a model must clear | [AI Privacy Engineer](https://github.com/ai-governance-curriculum/ai-privacy-engineer-learning) |
 | AI Engineering | Models, fine-tunes, and embeddings with documented strengths, failure modes, and benchmark results on relevant tasks | Real failure cases and task data from production, which tell them where a fine-tune or a different model would actually help | [AI Evaluation Engineer](https://github.com/ai-engineering-curriculum/ai-eval-engineer-learning) |
@@ -49,15 +51,16 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 - **Alongside it (same level):** [AI Data Engineer](https://github.com/ml-engineering-curriculum/ai-data-engineer-learning), [Fine-Tuning Engineer](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning), [NLP Engineer](https://github.com/ml-engineering-curriculum/nlp-engineer-learning), [Senior Machine Learning Engineer](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning)
 - **After this role:** [Training Pipeline Engineer](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-learning)
 
-## Scenario: One model upgrade, five orgs
+## Scenario: One model upgrade, six orgs
 
-Your vendor ships a new model version and deprecates the one in production in 90 days. Nobody owns this end to end. Here is how the work splits:
+Your vendor ships a new model version and deprecates the one in production in 90 days. Nobody owns this end to end. Here is how the work splits across the six orgs:
 
-1. **AI Startup:** Decides whether the upgrade is worth it now: cost, customer commitments, roadmap. Tells customers what changes and when.
-2. **AI Governance:** Re-runs risk and safety evaluations on the new version, updates the model inventory and documentation, and signs off (or blocks) the release.
-3. **AI Engineering:** Re-runs product evals, re-tunes prompts and tool definitions that regressed, and rolls the new model out behind a flag with a rollback path.
-4. **ML Engineering:** **Re-validates any fine-tunes, distillations, or in-house models that depended on the old version, and benchmarks the new one on the team's own data.** ← your part
-5. **AI Infrastructure:** Stands up serving for the new version, capacity-plans GPUs or rate limits, shifts traffic gradually, and watches latency, error, and cost dashboards.
+1. **AI Workforce:** Re-checks the everyday workflows built on the old model (prompts, review habits, team playbooks), spots where output quality shifted, and updates the guidance people actually follow.
+2. **AI Startup:** Decides whether the upgrade is worth it now: cost, customer commitments, roadmap. Tells customers what changes and when.
+3. **AI Governance:** Re-runs risk and safety evaluations on the new version, updates the model inventory and documentation, and signs off (or blocks) the release.
+4. **AI Engineering:** Re-runs product evals, re-tunes prompts and tool definitions that regressed, and rolls the new model out behind a flag with a rollback path.
+5. **ML Engineering:** **Re-validates any fine-tunes, distillations, or in-house models that depended on the old version, and benchmarks the new one on the team's own data.** ← your part
+6. **AI Infrastructure:** Stands up serving for the new version, capacity-plans GPUs or rate limits, shifts traffic gradually, and watches latency, error, and cost dashboards.
 
 If any one of these is skipped, the upgrade fails in a way the others can't see from where they sit. Knowing which line is yours, and who owns the lines next to it, is the point of this module.
 
