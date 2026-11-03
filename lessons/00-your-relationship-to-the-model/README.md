@@ -39,14 +39,14 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 | Org | You hand them | They hand you | Your nearest counterpart |
 |-----|---------------|---------------|--------------------------|
 | AI Startup | An honest read on what's technically feasible, how long it takes, and what it costs to own a model versus renting one | The problems worth owning a model for, and the business case for the data and compute it takes | [Co-Founder / CTO](https://github.com/ai-startup-curriculum/cto-curriculum) |
-| AI Governance | Data provenance, model cards, training-data documentation, and evaluation results they can audit | Data-use rules, documentation standards, and the risk-based evaluation bar a model must clear | [AI Risk Engineer](https://github.com/ai-governance-curriculum/ai-risk-engineer-learning) |
+| AI Governance | Data provenance, model cards, training-data documentation, and evaluation results they can audit | Data-use rules, documentation standards, and the risk-based evaluation bar a model must clear | [AI Privacy Engineer](https://github.com/ai-governance-curriculum/ai-privacy-engineer-learning) |
 | AI Engineering | Models, fine-tunes, and embeddings with documented strengths, failure modes, and benchmark results on relevant tasks | Real failure cases and task data from production, which tell them where a fine-tune or a different model would actually help | [AI Evaluation Engineer](https://github.com/ai-engineering-curriculum/ai-eval-engineer-learning) |
 | AI Infrastructure | Model artifacts with known resource profiles (memory, throughput, precision) and the training workloads they need to schedule | Training and fine-tuning clusters, experiment and artifact storage, and a path to production for the models they produce | [AI/ML Platform Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-ml-platform-learning) |
 
 ## Your ladder
 
 - **Before this role:** [Machine Learning Engineer](https://github.com/ml-engineering-curriculum/ml-engineer-learning)
-- **Alongside it (same level):** [Fine-Tuning Engineer](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning), [NLP Engineer](https://github.com/ml-engineering-curriculum/nlp-engineer-learning), [Senior Machine Learning Engineer](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning)
+- **Alongside it (same level):** [AI Data Engineer](https://github.com/ml-engineering-curriculum/ai-data-engineer-learning), [Fine-Tuning Engineer](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning), [NLP Engineer](https://github.com/ml-engineering-curriculum/nlp-engineer-learning), [Senior Machine Learning Engineer](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning)
 - **After this role:** [Training Pipeline Engineer](https://github.com/ml-engineering-curriculum/training-pipeline-engineer-learning)
 
 ## Scenario: One model upgrade, five orgs
