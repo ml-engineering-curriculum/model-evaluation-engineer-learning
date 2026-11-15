@@ -2,23 +2,23 @@
 
 ML Engineering Curriculum · Level 30 · [learning](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning) · [solutions](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-solutions)
 
-_Generated 2026-11-03 by `aicg org completeness`._
+_Generated 2026-11-15 by `aicg org completeness`._
 
-**Overall: 50%**
+**Overall: 63%**
 
 | | Progress | Count |
 |---|---|---|
 | Learning | `██████████` 100% | 12/12 modules complete |
-| Solutions | `░░░░░░░░░░` 0% | 0/59 exercises solved |
+| Solutions | `███░░░░░░░` 25% | 15/59 exercises solved |
 
 ## Modules
 
 | Module | Status | Words | Chapters | Exercises | Quiz | Solutions |
 |---|---|---|---|---|---|---|
 | `mod-101-evaluation-foundations` | ✅ Complete | 17,968 | 7 | 5 | — | 0/5 |
-| `mod-102-benchmark-engineering` | ✅ Complete | 24,917 | 7 | 5 | — | 0/5 |
-| `mod-103-classical-ml-eval-depth` | ✅ Complete | 27,014 | 7 | 5 | — | 0/5 |
-| `mod-104-llm-benchmark-harnesses` | ✅ Complete | 27,030 | 7 | 5 | — | 0/5 |
+| `mod-102-benchmark-engineering` | ✅ Complete | 24,917 | 7 | 5 | — | 5/5 |
+| `mod-103-classical-ml-eval-depth` | ✅ Complete | 27,014 | 7 | 5 | — | 5/5 |
+| `mod-104-llm-benchmark-harnesses` | ✅ Complete | 27,030 | 7 | 5 | — | 5/5 |
 | `mod-105-llm-as-judge-platforms` | ✅ Complete | 25,396 | 7 | 5 | — | 0/5 |
 | `mod-106-human-evaluation` | ✅ Complete | 23,512 | 7 | 4 | — | 0/4 |
 | `mod-107-generative-and-multimodal-eval` | ✅ Complete | 26,851 | 7 | 5 | — | 0/5 |
